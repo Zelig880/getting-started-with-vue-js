@@ -1,0 +1,29 @@
+{
+  "name": "getting-started-with-vue-js",
+  "version": "1.0.0",
+  "description": "This repository includes all the excercise covered in the getting starte with vue js hosted on my website www.zelig880.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zelig880/getting-started-with-vue-js.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue",
+    "introduction",
+    "es6"
+  ],
+  "author": "Simone Cuomo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zelig880/getting-started-with-vue-js/issues"
+  },
+  "homepage": "https://github.com/Zelig880/getting-started-with-vue-js#readme",
+  "devDependencies": {
+    "rollup": "^0.63.4"
+  }
+}

@@ -1,0 +1,22 @@
+#header img{
+  width: 25%;
+  height: 100px;
+}
+
+#header h1,  #header sub{
+  display:inline;
+  padding: 0;
+  margin: 0;
+}
+
+#footer a img{
+  width:48px;
+  height: 48px;
+  margin-right: 5px;
+}
+
+#footer a{
+  width:30%;
+  
+}
+

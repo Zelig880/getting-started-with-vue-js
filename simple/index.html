@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to Vue</title>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="style.css"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="header">
+      <img src="images/timbro.png" alt="logo" />
+      <h1>Page Title</h1>
+      <sub>This is a subheading</sub>
+    </div>
+    <div id="mainContent">
+      <h2>Main page content</h2>
+      <p>This is a paragraph...</p>
+      <ul>
+        <li>This is a list</li>
+        <li>This is the second LIst</li>
+        <li>This it the third list</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <a href="twitter">
+        <img src="twitterLogo"/>
+        Twitter
+      </a>
+      <a href="Facebook">
+        <img src="FacebookLogo"/>
+        Facebook
+      </a>
+      <a href="Linkedin">
+        <img src="LinkedinLogo"/>
+        Linkedin
+      </a>
+    </div>
+  </div>
+
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        greeting: 'Welcome to your Vue.js app!',
+        docsURL: 'http://vuejs.org/guide/',
+        discordURL: 'https://chat.vuejs.org',
+        forumURL: 'http://forum.vuejs.org/'
+      },
+      methods: {
+        humanizeURL: function (url) {
+          return url
+            .replace(/^https?:\/\//, '')
+            .replace(/\/$/, '')
+        }
+      }
+    })
+  </script>
+</body>
+</html>
